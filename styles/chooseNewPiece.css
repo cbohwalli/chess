@@ -1,0 +1,65 @@
+.chooseNewPieceContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 120px;
+    border: solid black;
+    display: none;
+    background-color: grey;
+}
+
+.newPiece {
+    position: absolute;
+    border: solid black 1px;
+    width: 40px;
+    height: 40px;
+    transform: scale(1.5);
+    top: 40px;
+}
+
+.newPiece:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.newWhiteQueen {
+    left: 20px;
+    background: url("../chess-pieces/Chess_Pieces_Sprite.svg") -48.5px -3px;
+}
+
+.newBlackQueen {
+    left: 20px;
+    background: url("../chess-pieces/Chess_Pieces_Sprite.svg") -48.5px -49px;
+}
+
+.newWhiteRook {
+    left: 90px;
+    background: url("../chess-pieces/Chess_Pieces_Sprite.svg") -185px -3px;
+}
+
+.newBlackRook {
+    left: 90px;
+    background: url("../chess-pieces/Chess_Pieces_Sprite.svg") -185px -49px;
+}
+
+.newWhiteKnight {
+    left: 160px;
+    background: url("../chess-pieces/Chess_Pieces_Sprite.svg") -140px -3px; 
+}
+
+.newBlackKnight {
+    left: 160px;
+    background: url("../chess-pieces/Chess_Pieces_Sprite.svg") -140px -49px;
+}
+
+.newWhiteBishop {
+    left: 230px;
+    background: url("../chess-pieces/Chess_Pieces_Sprite.svg") -94px -3px;
+}
+
+.newBlackBishop {
+    left: 230px;
+    background: url("../chess-pieces/Chess_Pieces_Sprite.svg") -94px -49px;
+}
